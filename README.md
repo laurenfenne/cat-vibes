@@ -1,2 +1,3 @@
 # cat-vibes
-A website full of cats for my daughter.
+A website with an abundance of cat vibes, made for Ash. :) <3
+
