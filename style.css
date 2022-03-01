@@ -84,7 +84,6 @@ h2 {
 }
 
 .vibe:hover {
-    background-color: hsl(0, 0%, 70%);
     transform: scale(1.1);
     cursor: pointer;
 }
