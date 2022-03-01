@@ -1,5 +1,3 @@
-const aud = document.getElementById("aud").autoplay = true;
-
 const newVid = document.querySelector('video');
 const newColour = document.querySelector('body');
 
@@ -12,6 +10,7 @@ btn1.addEventListener('click', function () {
 
     newVid.src="Videos/cat1.mp4";
     newColour.style.color="rgb(2, 20, 1)";
+    const aud = document.getElementById("aud").play();
 
 })
 btn2.addEventListener('click', function () {
