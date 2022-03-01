@@ -9,7 +9,7 @@ const btn4 = document.getElementById('4');
 
 btn1.addEventListener('click', function () {
 
-    newVid.src="Videos/cat1.mp4";
+    newVid.src="cat-vibes/Videos/cat1.mp4";
     newVid.autoplay = true;
     newColour.style.color="rgb(2, 20, 1)";
 })
