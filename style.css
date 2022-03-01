@@ -7,25 +7,6 @@
     font-family: Merriweather;
 }
 
-h1, h2 {
-    font-family: Dancing Script;
-    font-weight: 700;
-    color: rgb(66, 4, 85);
-    margin: 0;
-}
-
-h1 {
-    margin-bottom: -2.25vmin;
-    font-size: 4vw;
-}
-
-h2 {
-    margin-top: -2.25vmin;
-    margin-bottom: 0;
-    font-size: 3vw;
-    text-align: center;
-}
-
 body {
     background-image: url("images/hearts.jpeg");
     -webkit-background-size: cover;
@@ -33,57 +14,78 @@ body {
     -o-background-size: cover;
     background-size: cover;
     margin: 0;
-    padding: 0;
-    color: rgb(75, 32, 7);
-    font-size: 2.25vmin;
+    padding: 15% 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 20%;
     height: 100vh;
     width:100vw;
 }
 
-#img img{
-    width: 350px;
-    height: auto;
+video {
+    position: fixed;
+top:0;
+left: 0;
+    min-width: 100vw;
+    min-height: 100vh;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+h1{
+    font-family: Dancing Script;
+    font-weight: 700;
+    color: rgb(66, 4, 85);
+    font-size: 4vw;
+    margin-bottom: 0;
 }
 
-.container {
-    background-color: rgba(255, 232, 248, 0.25);
-    border-radius: 25px;
-    padding: 3vh 5vh;
+p {
+    font-size: 3vmin;
+    text-align: center;
+    color: rgb(75, 32, 7);
+}
+
+.text {
+    position: relative;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.vibe-container img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.vibe-container {
+    display: flex;
+    flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     gap: 20px;
-    box-shadow: 0 8px 25px 10px rgba(133, 112, 124, 0.5);
-    width: 60%;
-    height: 90%;
-    max-width: 60%;
-    max-height: 90%;
 }
 
-.btn-grid {
-    display:grid;
-    grid-template-columns: repeat(2, auto);
-    gap: 10px;
-    margin-top: 20px;
-}
-
-.btn {
-    background-color: hsl(312, 100%, 96%);
+.vibe {
+    background-color: rgba(255, 209, 249, 0.5);
     border: 1px solid hsl(313, 100%, 85%);
+    box-shadow: 0 8px 8px -4px rgba(0, 0, 0, 0.4);
     border-radius: 5px;
-    padding: 5px 10px;
-    font-size: 2.75vmin;
-    color:rgb(75, 32, 7);
-    outline: none;
+    width: 33vmin;
+    height: auto;
+    padding: 2vmin 2vmin;
     transition: background-color 200ms ease-in-out;
+    display: flex;
+    align-items: center;
+
 }
 
-.btn:hover {
+.vibe:hover {
     background-color: hsl(313, 100%, 85%);
     cursor: pointer;
 }
