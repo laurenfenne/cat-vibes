@@ -10,7 +10,7 @@ const btn4 = document.getElementById('4');
 btn1.addEventListener('click', function () {
 
     newVid.src="Videos/cat1.mp4";
-    src.src="Videos/cat1.mp4";
+    newVid.autoplay = true;
     newColour.style.color="rgb(2, 20, 1)";
 })
 btn2.addEventListener('click', function () {
